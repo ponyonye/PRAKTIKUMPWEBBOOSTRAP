@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Title 1 - Tada Blog</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+        }
+        .post-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .post-title {
+            font-size: 2rem;
+            margin-top: 20px;
+        }
+        .post-meta {
+            color: gray;
+            font-size: 1rem;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .comments-section {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .pagination {
+            justify-content: center;
+        }
+        .extra-section {
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin-top: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header class="bg-light text-center py-3">
+        <h1>Tada Blog</h1>
+        <nav>
+            <a href="index.html" class="mx-2">Home</a>
+            <a href="#" class="mx-2">About Us</a>
+            <a href="#" class="mx-2">Contact</a>
+        </nav>
+        <div class="input-group mb-3 mt-3 w-50 mx-auto">
+            <input type="text" class="form-control" placeholder="Search..." aria-label="Search">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Post Content Area -->
+            <div class="col-md-8 mx-auto">
+                <article class="mb-4">
+                    <img src="image-1.jpg" alt="Post Image" class="post-image">
+                    <h1>Mobil F1 Terbaru</h1>
+                        <p>
+                            Mobil F1 terbaru adalah contoh sempurna dari inovasi teknologi dalam dunia balap mobil. Setiap tahun, tim-tim F1 berusaha untuk memajukan mobil mereka dengan desain aerodinamis yang lebih baik, mesin yang lebih kuat, dan teknologi yang lebih canggih untuk memberikan performa yang lebih baik di lintasan balap.
+                        </p>
+                        <p>
+                            Mobil F1 terbaru dirancang dengan fokus pada efisiensi aerodinamika, yang sangat penting untuk menurunkan hambatan udara dan meningkatkan kecepatan. Desain sayap depan dan belakang, serta diffuser yang lebih efisien, memungkinkan mobil F1 untuk menghasilkan lebih banyak downforce, yang memberikan lebih banyak traksi di tikungan cepat.
+                        </p>
+                        <p>
+                            Selain itu, penggunaan mesin hybrid juga semakin umum dalam mobil F1 terbaru. Mesin ini menggabungkan kekuatan mesin pembakaran internal dengan sistem penggerak elektrik, yang menghasilkan performa tinggi sambil menghemat bahan bakar dan mengurangi emisi karbon.
+                        </p>
+                        <p>
+                            Tak hanya itu, teknologi seperti sistem pemulihan energi kinetik (KERS) dan penggunaan bahan ringan seperti karbon fiber terus dimanfaatkan untuk menurunkan berat mobil dan meningkatkan akselerasi.
+                        </p>        
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </article>
+
+                <!-- Pagination -->
+                <nav aria-label="Page navigation">
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Comments Section -->
+                <div class="comments-section mt-4">
+                    <h3>Comments</h3>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="3" placeholder="Leave a comment..."></textarea>
+                    </div>
+                    <button class="btn btn-primary">Submit</button>
+                    <div class="mt-3">
+                        <p><strong>User1:</strong> Great post!</p>
+                        <p><strong>User2:</strong> Thanks for sharing!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- New Section (About Us, Categories, Follow Us) -->
+        <div class="row mt-5">
+            <div class="col-md-8 mx-auto">
+                <div class="extra-section">
+                    <h3>About Us</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus!</p>
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">Travel</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Technology</a></li>
+                    </ul>
+                    <h3>Follow Us</h3>
+                    <a href="#" class="mr-2"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="mr-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Copyright © 2025. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
